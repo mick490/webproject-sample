@@ -1,0 +1,86 @@
+.fish {
+    width: 400px;
+    /* border: 6px solid blue; */
+    border-radius: 5px;
+    height: 400px;
+    background: linear-gradient(rgb(46, 7, 7),rgb(241, 97, 97));
+    animation-name: spin;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-fill-mode:backwards;
+
+}
+
+.me {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+.zoom{
+    width: 400px;
+    height: 400px;
+    /* border: 2px solid burlywood; */
+    margin: 100px;
+    background-image: url(spidey.jpg);
+    background-size: cover;
+    transition: all  2s ease-in-out;  
+}
+.zoom:hover{
+background-size: cover;
+width: 450px;
+height: 450px;
+border-radius: 20px;
+background-image: url(king.jpg);
+}
+@keyframes spin{
+     0%{
+
+     }
+      50%{
+        scale: 0.5;
+
+      }
+      100%{
+        transform: rotate(360deg);
+        border-radius: 50%;
+        scale: 0.5;
+
+      }
+
+}
+body{
+    /* background-color: black; */
+}
+.glow{
+    width: 100px;
+    height: 100px;
+    border: 6px solid aqua;
+    border-radius: 6px;
+    box-shadow: 0 0 8px,0 0 8px aqua inset;
+    animation: 2s loading ease-in-out infinite;
+    background-color: aqua;
+}
+@keyframes loading{
+    0%{
+        transform: rotateX(0) rotateY(0) rotateZ(0);
+    }
+    33%{
+        
+        transform: rotateX(180deg) rotateY(0) rotateZ(0);
+    }
+    67%{
+        transform: rotateX(180deg) rotateY(180deg) rotateZ(0);
+    }
+    100%{
+        transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+        border-radius: 50%;
+    }
+}
+.round{
+    text-align: center;
+    color: 0 0 8px,0 0 8px aqua inset;
+    
+}
+body{
+}

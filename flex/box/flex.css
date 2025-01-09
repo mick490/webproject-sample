@@ -1,0 +1,48 @@
+.yellow{
+    border: 4px solid yellow;
+    display: flex;
+    width: 700px;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    height: 300px;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    
+}
+.fl{
+    width: 150px;
+    background-color: brown;
+    height: 50px;
+    /* margin-left: auto; */
+    align-items: start;
+    order: 2;
+    
+}
+.fk{
+    width: 150px;
+    background-color:blue;
+    height: 50px;
+    order: 0;
+}
+.fj{
+    width: 150px;
+    background-color:rgb(170, 154, 110);
+    height: 50px;
+    order: 1;
+}
+.yellow .fk{
+    /* flex: 2; */
+}
+.yellow div{
+    /* flex: 1 ; */
+}
+html,body{
+    /* height: 100%; */
+}
+.fl{
+    /* note align self is for targetting a single element or div box in display flex */
+    /* align-self: flex-end; */
+    /* margin-left: auto; */
+}

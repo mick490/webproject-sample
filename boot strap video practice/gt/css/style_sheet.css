@@ -1,0 +1,75 @@
+
+.c-item{
+    height: 500px;
+}
+.c-img{
+    height: 100%;
+    /* object-fit:cover ; */
+    filter: brightness(0.5);
+
+}
+.overview{
+    height: 180px;
+    background-color:rgb(192, 192, 192);
+    display: flex;
+    align-items: center;
+    
+}
+.pac{
+    font-size: 20px;
+}
+.footer{
+    width: 100%;
+}
+
+.container{
+
+    
+}
+#desktop{
+    background-color: rgb(126, 126, 233);
+}
+.mic{
+    margin-top: 120px;
+}
+.im{
+    margin-left: 40px;
+}
+#mobule{
+    background-color:palevioletred;
+    padding: 20px;
+}
+.ml{
+    margin-left: 190px;
+}
+
+.pin{
+    /* width: 50%; */
+}
+
+@media(max-width:768px){
+    .nameVeryWell {
+        width: 50%;
+    }
+}
+.fs{
+    font-size: 40px;
+}
+.containe{
+    animation: move ease-in-out 2s;
+}
+
+@keyframes move{
+    0%{
+        opacity: 0;
+        transform: translatey(12px)
+        
+        
+    }
+
+    100%{
+        opacity: 1px;
+        transform: translatey(0);
+
+    }
+}

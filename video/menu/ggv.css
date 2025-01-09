@@ -1,0 +1,30 @@
+ul{
+    list-style: none;
+    background-color: rgb(172, 172, 243);
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    display: block;
+    padding: 20px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+ul li ul .dew li{
+    display: block;
+}
+ul li ul .dew{
+    width: 100%;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+ul li a :hover{
+    background-color: rgb(172, 172, 243);
+}
+ul li:hover ul.dew{
+    display: block; 
+}
